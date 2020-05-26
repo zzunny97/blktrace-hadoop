@@ -1,0 +1,7 @@
+matplotlib not found, using blktrace only mode
+run_blkparse on eternity1/sdb.blktrace.0
+using tracefile eternity1/sdb
+Traceback (most recent call last):
+  File "./seekwatcher_seek", line 844, in <module>
+    if not options.zoom or ':' not in options.zoom:
+AttributeError: Values instance has no attribute 'zoom'
